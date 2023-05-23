@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Minecraft;
+  src: url(assets/Minecraft.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Minecraft", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+.container {
+  background-image: url(assets/server-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  color: black;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(82, 82, 82);
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+a::after {
+  color: white;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
